@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F1DCBC152DF3DC00715D96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F1DCBB152DF3DC00715D96 /* UIKit.framework */; };
+		84F1DCBE152DF3DC00715D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F1DCBD152DF3DC00715D96 /* Foundation.framework */; };
+		84F1DCC0152DF3DC00715D96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F1DCBF152DF3DC00715D96 /* CoreGraphics.framework */; };
+		84F1DCC6152DF3DC00715D96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F1DCC4152DF3DC00715D96 /* InfoPlist.strings */; };
+		84F1DCC8152DF3DC00715D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1DCC7152DF3DC00715D96 /* main.m */; };
+		84F1DCCC152DF3DC00715D96 /* KeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1DCCB152DF3DC00715D96 /* KeAppDelegate.m */; };
+		84F1DCE8152E012300715D96 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1DCE7152E012300715D96 /* View.m */; };
+		84F1DCF2152E0C1E00715D96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F1DCF0152E0C1E00715D96 /* Localizable.strings */; };
+		84F1DCF4152E0C3300715D96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F1DCF0152E0C1E00715D96 /* Localizable.strings */; };
+		84F1DCF6152E0C4400715D96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F1DCF0152E0C1E00715D96 /* Localizable.strings */; };
+		84F1DCF8152E0D6E00715D96 /* bayer-kreuz-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F1DCF7152E0D6E00715D96 /* bayer-kreuz-57.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84F1DCB7152DF3DC00715D96 /* April5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = April5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F1DCBB152DF3DC00715D96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84F1DCBD152DF3DC00715D96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84F1DCBF152DF3DC00715D96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84F1DCC3152DF3DC00715D96 /* April5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "April5-Info.plist"; sourceTree = "<group>"; };
+		84F1DCC5152DF3DC00715D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84F1DCC7152DF3DC00715D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F1DCC9152DF3DC00715D96 /* April5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "April5-Prefix.pch"; sourceTree = "<group>"; };
+		84F1DCCA152DF3DC00715D96 /* KeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeAppDelegate.h; sourceTree = "<group>"; };
+		84F1DCCB152DF3DC00715D96 /* KeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeAppDelegate.m; sourceTree = "<group>"; };
+		84F1DCE6152E012300715D96 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		84F1DCE7152E012300715D96 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		84F1DCF1152E0C1E00715D96 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84F1DCF3152E0C3300715D96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84F1DCF5152E0C4400715D96 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84F1DCF7152E0D6E00715D96 /* bayer-kreuz-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bayer-kreuz-57.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F1DCB4152DF3DC00715D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F1DCBC152DF3DC00715D96 /* UIKit.framework in Frameworks */,
+				84F1DCBE152DF3DC00715D96 /* Foundation.framework in Frameworks */,
+				84F1DCC0152DF3DC00715D96 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F1DCAC152DF3DC00715D96 = {
+			isa = PBXGroup;
+			children = (
+				84F1DCC1152DF3DC00715D96 /* April5 */,
+				84F1DCBA152DF3DC00715D96 /* Frameworks */,
+				84F1DCB8152DF3DC00715D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F1DCB8152DF3DC00715D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F1DCB7152DF3DC00715D96 /* April5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F1DCBA152DF3DC00715D96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F1DCBB152DF3DC00715D96 /* UIKit.framework */,
+				84F1DCBD152DF3DC00715D96 /* Foundation.framework */,
+				84F1DCBF152DF3DC00715D96 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F1DCC1152DF3DC00715D96 /* April5 */ = {
+			isa = PBXGroup;
+			children = (
+				84F1DCF7152E0D6E00715D96 /* bayer-kreuz-57.png */,
+				84F1DCF0152E0C1E00715D96 /* Localizable.strings */,
+				84F1DCCA152DF3DC00715D96 /* KeAppDelegate.h */,
+				84F1DCCB152DF3DC00715D96 /* KeAppDelegate.m */,
+				84F1DCE6152E012300715D96 /* View.h */,
+				84F1DCE7152E012300715D96 /* View.m */,
+				84F1DCC2152DF3DC00715D96 /* Supporting Files */,
+			);
+			path = April5;
+			sourceTree = "<group>";
+		};
+		84F1DCC2152DF3DC00715D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F1DCC3152DF3DC00715D96 /* April5-Info.plist */,
+				84F1DCC4152DF3DC00715D96 /* InfoPlist.strings */,
+				84F1DCC7152DF3DC00715D96 /* main.m */,
+				84F1DCC9152DF3DC00715D96 /* April5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F1DCB6152DF3DC00715D96 /* April5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F1DCCF152DF3DC00715D96 /* Build configuration list for PBXNativeTarget "April5" */;
+			buildPhases = (
+				84F1DCB3152DF3DC00715D96 /* Sources */,
+				84F1DCB4152DF3DC00715D96 /* Frameworks */,
+				84F1DCB5152DF3DC00715D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = April5;
+			productName = April5;
+			productReference = 84F1DCB7152DF3DC00715D96 /* April5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F1DCAE152DF3DC00715D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ke;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 84F1DCB1152DF3DC00715D96 /* Build configuration list for PBXProject "April5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ar,
+				es,
+			);
+			mainGroup = 84F1DCAC152DF3DC00715D96;
+			productRefGroup = 84F1DCB8152DF3DC00715D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F1DCB6152DF3DC00715D96 /* April5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F1DCB5152DF3DC00715D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F1DCC6152DF3DC00715D96 /* InfoPlist.strings in Resources */,
+				84F1DCF2152E0C1E00715D96 /* Localizable.strings in Resources */,
+				84F1DCF4152E0C3300715D96 /* Localizable.strings in Resources */,
+				84F1DCF6152E0C4400715D96 /* Localizable.strings in Resources */,
+				84F1DCF8152E0D6E00715D96 /* bayer-kreuz-57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F1DCB3152DF3DC00715D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F1DCC8152DF3DC00715D96 /* main.m in Sources */,
+				84F1DCCC152DF3DC00715D96 /* KeAppDelegate.m in Sources */,
+				84F1DCE8152E012300715D96 /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84F1DCC4152DF3DC00715D96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F1DCC5152DF3DC00715D96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84F1DCF0152E0C1E00715D96 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F1DCF1152E0C1E00715D96 /* ar */,
+				84F1DCF3152E0C3300715D96 /* en */,
+				84F1DCF5152E0C4400715D96 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F1DCCD152DF3DC00715D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84F1DCCE152DF3DC00715D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F1DCD0152DF3DC00715D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "April5/April5-Prefix.pch";
+				INFOPLIST_FILE = "April5/April5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84F1DCD1152DF3DC00715D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "April5/April5-Prefix.pch";
+				INFOPLIST_FILE = "April5/April5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F1DCB1152DF3DC00715D96 /* Build configuration list for PBXProject "April5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F1DCCD152DF3DC00715D96 /* Debug */,
+				84F1DCCE152DF3DC00715D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F1DCCF152DF3DC00715D96 /* Build configuration list for PBXNativeTarget "April5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F1DCD0152DF3DC00715D96 /* Debug */,
+				84F1DCD1152DF3DC00715D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F1DCAE152DF3DC00715D96 /* Project object */;
+}
